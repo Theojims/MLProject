@@ -1,0 +1,128 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background: linear-gradient(75deg, #1a0202, #c4b5c9);
+    color: #ffffff;
+
+}
+
+.profile-pic {
+    width: 10%;
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+img {
+
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+
+
+}
+    
+    p{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.span {
+    background-color: #fff;
+    border-radius: 15px;
+
+}
+
+
+
+
+legend {
+
+   text-align: center;
+   color: #000000;
+   text-decoration: underline solid;
+   margin-bottom: 20px;
+
+}
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px; /* Fixed column widths */
+    column-gap: 50px; /* Space between columns */
+    justify-content: center; /* Center the grid container */
+    row-gap: 30px;
+    margin-top: 20px;
+}
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    width: 100%;
+
+}
+
+
+.form-group {
+
+    background-color: #ffffff;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 1px rgba(0,0,0,0.5);
+
+
+}
+
+
+input.form-control{
+
+    width: 220px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+select.form-control {
+    width: 220px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #050505;
+}
+.form-label {
+    text-align: center;
+    align-self: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+
+}
+
+.results{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 20%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.span {
+    background-color: #b835e3;
+    border: 2px solid  ;
+}
